@@ -13,6 +13,11 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
-        System.out.println("Address book");
+        BuddyInfo buddy = new BuddyInfo("Sanvi", "Ottawa", "613-805-6702");
+
+        AddressBook addressBook = new AddressBook();
+
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 }
