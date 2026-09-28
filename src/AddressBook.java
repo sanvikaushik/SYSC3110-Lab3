@@ -12,6 +12,10 @@ public class AddressBook {
         buddies.remove(buddy);
     }
 
+    public boolean hasBuddies() {
+        return !buddies.isEmpty();
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Sanvi", "Ottawa", "613-805-6702");
 
