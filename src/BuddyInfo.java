@@ -4,6 +4,7 @@ public class BuddyInfo {
     private String address;
     private String phoneNumber;
 
+    // Test Change for L3
     public BuddyInfo(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
